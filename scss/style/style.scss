@@ -1,0 +1,19 @@
+@use '../variables/variables';
+@use '../mixins/mixins';
+@use '../header/header';
+@use '../main/main';
+@use '../calculation/calculation';
+@use '../advantages/advantages';
+@use '../services/services';
+@use '../delivery/delivery';
+@use '../about/about';
+@use '../faq/faq';
+@use '../cooperation/cooperation';
+@use '../footer/footer';
+@use '../404/error';
+
+body {
+    background-color: variables.$color-bg;
+    color: variables.$color-text;
+    font-family: 'Proxima Nova', sans-serif;
+}
